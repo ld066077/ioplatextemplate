@@ -58,8 +58,8 @@
 
 %Define the text area
 \setlength\voffset{-25mm}
-%\setlength\hoffset{-10mm}
-%\setlength\topmargin{10mm}
+\setlength\hoffset{-15mm}
+\setlength\topmargin{10mm}
 \setlength\headsep{10mm}
 \setlength\footskip{12mm}
 \setlength\marginparwidth{25mm}
@@ -73,8 +73,8 @@
 
 %Headers and footers
 \pagestyle{fancy}
-\fancyhfoffset[L]{27mm}
-\fancyhead[L]{{\small \sf IOP Publishing}\hspace{5mm} {\it Journal} {\bf vv} (yyyy) aaaaaa}
+\fancyhfoffset[L]{0mm}
+\fancyhead[L]{}
 \fancyhead[C]{}
 \fancyhead[R]{Author {\it et al}\ }
 \fancyfoot[LR]{}
@@ -92,8 +92,7 @@
 
 \newcommand{\articletype}[1]{{\vspace*{-8mm}\noindent \Large \sf Journal Name}
 
-\vspace*{8mm} \noindent\reversemarginpar
-\marginpar{\vspace{-3mm} {\color{gray}\hrule} \ \\ Crossmark\\ {\color{gray}\hrule} \ \\ \tiny {\sf RECEIVED} {\small \\ dd Month yyyy}\\ \\ {\sf REVISED} {\small \\ dd Month yyyy}}{\scriptsize \sf{\bfseries \MakeUppercase{#1}}}}
+\vspace*{8mm} \noindent{\scriptsize \sf{\bfseries \MakeUppercase{#1}}}}
 
 \renewcommand{\title}[1]{{\exhyphenpenalty=10000\hyphenpenalty=10000 
  \fontsize{18}{21}\selectfont\noindent\raggedright
