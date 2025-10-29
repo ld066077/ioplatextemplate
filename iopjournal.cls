@@ -36,6 +36,10 @@
 
 \RequirePackage{graphicx}
 
+% 添加数学宏包
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}  % 可选：额外数学符号
+
 % 添加 cite 宏包用于参考文献管理 sort&compress
 \RequirePackage{cite}
 
