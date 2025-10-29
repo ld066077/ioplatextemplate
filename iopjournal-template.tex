@@ -28,9 +28,9 @@ Sample text inserted for demonstration. Replace with abstract text. Your abstrac
 \end{abstract}
 
 \section{Section title}
-Sample text inserted for demonstration. Organize the main text of your article using section headings, and include any equations, figures, tables, lists etc using your preferred \LaTeX\ packages and commands. Example code for a figure and a table is given below, but you do not have to use this format. For general guidance on using \LaTeX , including information on figures, tables, equations and references, please refer to documents such as the \LaTeX\ WikiBook: \href{https://en.wikibooks.org/wiki/LaTeX}{https://en.wikibooks.org/wiki/LaTeX}.
+Sample text inserted for demonstration\cite{zimmermann2024experimental,zhu2018structure}. Organize the main text of your article using section headings, and include any equations, figures, tables, lists etc using your preferred \LaTeX\ packages and commands. Example code for a figure and a table is given below, but you do not have to use this format. For general guidance on using \LaTeX , including information on figures, tables, equations and references, please refer to documents such as the \LaTeX\ WikiBook: \href{https://en.wikibooks.org/wiki/LaTeX}{https://en.wikibooks.org/wiki/LaTeX}.
 
-Note that clarity of presentation is the most important consideration when preparing your article for submission. It is not necessary to format your article in the style used for published articles in the journal.
+Note that clarity of presentation\cite{zimmermann2024experimental} is the most important consideration when preparing your article for submission. It is not necessary to format your article in the style used for published articles in the journal.\cite{zonca2021nonlinear,zonca2009highfrequency,zonca2008structures,zimmermann2024experimental}
 
 \subsection{Subsection title}
 Sample text inserted for demonstration, including links to figure \ref{fig1} and table \ref{tab1}.
@@ -82,9 +82,9 @@ Data row 3 & 3.0 & 3.5 & 4.0 \\
 \suppdata{Sample text inserted for demonstration.}
 
 
-\section*{References}
 
-
+\bibliographystyle{iopart-num}  % 数字引用格式
+\bibliography{yourbibfile} 
 
 \end{document}
 

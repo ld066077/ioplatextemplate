@@ -36,6 +36,8 @@
 
 \RequirePackage{graphicx}
 
+% 添加 cite 宏包用于参考文献管理 sort&compress
+\RequirePackage{cite}
 
 %Options for the class file
 
