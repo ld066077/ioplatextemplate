@@ -74,7 +74,7 @@
 \setlength\textheight{255mm}
 
 %General text options, will apply unless commands specify otherwise
-\raggedright
+% \raggedright  % 注释掉这一行以启用两端对齐
 \setlength\parindent{15pt} 
 
 %Headers and footers
@@ -126,7 +126,7 @@
       \vspace{16pt plus3pt minus3pt}
       {\color{gray}\hrule} \ \\
       \noindent \fontsize{11}{12}\selectfont {\bfseries Abstract}\\
-	  \rm\ignorespaces \raggedright}{\vspace{3mm} {\color{gray}\hrule}}
+      \rm\ignorespaces}{\vspace{3mm} {\color{gray}\hrule}}  % 移除 \raggedright
 
 
 % Section titles
